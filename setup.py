@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    url='https://bitbucket.org/psagers/django-otp',
+    url='https://github.com/altanawealth/django-otp.git',
     license='BSD',
     install_requires=[
         'django >= 1.4.2'
