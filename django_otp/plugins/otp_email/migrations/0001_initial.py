@@ -9,6 +9,7 @@ import django_otp.plugins.otp_email.models
 class Migration(migrations.Migration):
 
     dependencies = [
+        ('account', '__latest__'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
